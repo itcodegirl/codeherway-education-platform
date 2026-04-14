@@ -1,16 +1,122 @@
-# React + Vite
+# CodeHerWay Education Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern frontend learning platform built with React and designed to guide users from beginner concepts to real-world application.
 
-Currently, two official plugins are available:
+This project is part of a frontend portfolio and demonstrates scalable architecture, clean routing, and product-focused UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The CodeHerWay Education Platform is being built as an interactive system where users can:
 
-## Expanding the ESLint configuration
+- Learn frontend development concepts step-by-step
+- Complete lessons and quizzes
+- Track progress over time
+- Transition from learning → building → confidence
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project focuses heavily on **real-world frontend architecture**, not just UI.
+
+---
+
+## 🧱 Current Status
+
+✅ Phase 1 Complete:
+- Project scaffolded with Vite + React
+- Clean folder architecture
+- Routing system with protected/admin structure
+- Layout system (public, app, admin)
+- Page shells for all major routes
+- Base styling system
+
+🚧 In Progress:
+- Authentication system integration
+- Lesson system architecture
+- Interactive learning experience
+
+---
+
+## 🧩 Tech Stack
+
+- React (Vite)
+- React Router
+- JavaScript (ES6+)
+- CSS (modular structure)
+
+Planned:
+- Authentication (Supabase or similar)
+- State management via custom providers
+- Interactive lesson + quiz system
+
+---
+
+## 📁 Project Structure
+
+```txt
+src/
+├── assets/
+├── components/
+│   ├── admin/
+│   ├── auth/
+│   ├── shared/
+│   └── ui/
+├── layouts/
+├── pages/
+│   ├── public/
+│   ├── app/
+│   └── admin/
+├── routes/
+├── styles/
+├── App.jsx
+└── main.jsx
+
+🔐 Routing Architecture
+
+The app is structured around three access layers:
+
+Public Routes
+/
+/demo
+/login
+/signup
+Authenticated Routes
+/app/dashboard
+/app/profile
+/app/settings
+Admin Routes
+/admin
+
+Route guards are currently mocked and will be replaced with real authentication logic.
+
+Clone the repo:
+git clone https://github.com/itcodegirl/codeherway-education-platform.git
+cd codeherway-education-platform
+
+Install dependencies:
+npm install
+
+Start development server:
+npm run dev
+
+🎯 Project Goals
+
+This project is designed to demonstrate:
+
+Clean, scalable frontend architecture
+Separation of concerns (routes, layouts, pages)
+Real-world application structure
+Product-oriented thinking (not just components)
+
+👩‍💻 Author
+
+Jenna Zawaski
+Frontend Developer | CodeHerWay Founder
+Building modern, interactive learning experiences for the next generation of developers.
+
+🌱 Future Improvements
+Full authentication flow
+Lesson + quiz system
+Progress tracking dashboard
+Enhanced UI/UX polish
+Mobile optimization
+Animation layer (GSAP / interaction polish)
