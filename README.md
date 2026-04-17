@@ -1,3 +1,21 @@
+# Archived Repository
+
+This repository is archived and is no longer the active home of CodeHerWay platform development.
+
+It was retained as a source/reference repository during the CodeHerWay consolidation process. Active canonical platform work is currently taking place in `education_platform`.
+
+## Status
+- Archived source repository
+- Not the active development repo
+- Kept for historical and reference purposes only
+
+## Current canonical repository during consolidation
+`education_platform`
+
+## Planned final state
+After consolidation is complete, `education_platform` is planned to be renamed to `codeherway-platform`.
+
+
 # CodeHerWay Education Platform
 
 A modern frontend learning platform built with React and designed to guide users from beginner concepts to real-world application.
